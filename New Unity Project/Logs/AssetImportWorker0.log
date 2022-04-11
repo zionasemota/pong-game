@@ -11,19 +11,19 @@ C:\Program Files\Unity\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/zasemota2022/Downloads/Comp Sci Project/New Unity Project/New Unity Project
+C:/Users/zasemota2022/Documents/GitHub/pong-game/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60587
-Successfully changed project path to: C:/Users/zasemota2022/Downloads/Comp Sci Project/New Unity Project/New Unity Project
-C:/Users/zasemota2022/Downloads/Comp Sci Project/New Unity Project/New Unity Project
+63822
+Successfully changed project path to: C:/Users/zasemota2022/Documents/GitHub/pong-game/New Unity Project
+C:/Users/zasemota2022/Documents/GitHub/pong-game/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/zasemota2022/Downloads/Comp Sci Project/New Unity Project/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/zasemota2022/Documents/GitHub/pong-game/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,43 +35,211 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002222 seconds.
+Registered in 0.002560 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
+- Completed reload, in  1.228 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
+Registered in 0.001066 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  0.996 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.3 MB.
-System memory in use after: 57.4 MB.
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1558.
-Total: 2.054900 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.633400 ms  DeleteObjects: 0.083600 ms)
+Total: 2.926100 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.316700 ms  DeleteObjects: 0.116900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/pong game.unity
-  artifactKey: Guid(022e7df434dd4c840bcc3931d55afffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pong game.unity using Guid(022e7df434dd4c840bcc3931d55afffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682e6cbd1029b01eb4121b4d7bfa507b') in 0.065939 seconds
-  Import took 0.067630 seconds .
+  path: Assets/Cube.prefab
+  artifactKey: Guid(652bdfa332cd961489268129da8b59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(652bdfa332cd961489268129da8b59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a796cc1521c855f80ce17f179fe02434') in 0.272151 seconds
+  Import took 0.308893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.963445 seconds.
+  path: Assets/moving cube.prefab
+  artifactKey: Guid(652bdfa332cd961489268129da8b59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving cube.prefab using Guid(652bdfa332cd961489268129da8b59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1668c417ff8c39dc3b6f8b8cffc56001') in 0.043732 seconds
+  Import took 0.047236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 385.532947 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(7374c42329c56c348bd73afa57d1d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(7374c42329c56c348bd73afa57d1d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d7d0ac37bc3dba35d79e8fb8b0a681') in 0.423607 seconds
+  Import took 0.445674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.155530 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4856052512617ee48189cf1d7999900') in 0.002231 seconds
+  Import took 0.015910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011451 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4856052512617ee48189cf1d7999900') in 0.003481 seconds
+  Import took 0.005783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.246003 seconds.
+  path: Assets/PlaneColorMaterial.mat
+  artifactKey: Guid(7d0705c1abc5b0147b25bd03404146dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaneColorMaterial.mat using Guid(7d0705c1abc5b0147b25bd03404146dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022e6fdbc2715a5604cecc95ab94ef2c') in 0.037491 seconds
+  Import took 0.041534 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 1.553400 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.325500 ms  DeleteObjects: 0.035600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.284062 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(ff034bad1d20faa41adcfdcfe3561b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(ff034bad1d20faa41adcfdcfe3561b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795e072cc8f6aff1c21e1371ded6e97b') in 0.011006 seconds
+  Import took 0.013789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 10.172100 ms (FindLiveObjects: 1.184600 ms CreateObjectMapping: 0.298400 ms MarkObjects: 8.598100 ms  DeleteObjects: 0.075300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 1.465400 ms (FindLiveObjects: 0.123300 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.280200 ms  DeleteObjects: 0.029800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.131746 seconds.
+  path: Assets/MovingCube.cs
+  artifactKey: Guid(5053959b23dd16d4d9b3883aff0993d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovingCube.cs using Guid(5053959b23dd16d4d9b3883aff0993d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9058db14e7b8a725c1e82e4ff2209a00') in 0.005779 seconds
+  Import took 0.008508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006173 seconds.
+  path: Assets/MovingCube.cs
+  artifactKey: Guid(5053959b23dd16d4d9b3883aff0993d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovingCube.cs using Guid(5053959b23dd16d4d9b3883aff0993d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9058db14e7b8a725c1e82e4ff2209a00') in 0.002445 seconds
+  Import took 0.005286 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 2.377000 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.046200 ms MarkObjects: 2.134100 ms  DeleteObjects: 0.034300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.449822 seconds.
+  path: Assets/CubeColorMaterial.mat
+  artifactKey: Guid(7374c42329c56c348bd73afa57d1d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeColorMaterial.mat using Guid(7374c42329c56c348bd73afa57d1d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f331ca37ccc940664cf59b4a8811b9d') in 0.087960 seconds
+  Import took 0.113963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/moving cube.prefab
+  artifactKey: Guid(652bdfa332cd961489268129da8b59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving cube.prefab using Guid(652bdfa332cd961489268129da8b59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fdd753db08dcfd406b3a1a34df383b') in 0.030420 seconds
+  Import took 0.092662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/PlaneColorMaterial.mat
+  artifactKey: Guid(7d0705c1abc5b0147b25bd03404146dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaneColorMaterial.mat using Guid(7d0705c1abc5b0147b25bd03404146dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b2914a508bd5479f7d351bf2813825') in 0.013482 seconds
+  Import took 0.017694 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
